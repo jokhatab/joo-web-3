@@ -1,0 +1,51 @@
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.rtl{
+    direction: rtl;
+    text-align: right;
+}
+.ioo img{
+    background-size: cover;
+    width: 100%;
+    height: 92.2vh; 
+    
+  }
+  @media only screen and (max-width:768px){
+    .ioo img{
+        background-size: cover;
+        width: 100%;
+        height: auto;    
+      }
+  }
+  .font-stylee{
+    transform: scale(1,1);
+    transition: 1s;
+    cursor: pointer;
+  }
+  .font-stylee:hover{
+    color: rgb(24, 246, 24);
+    transform: scale(1.3,1.3);
+  }
+  .line-fotter{
+    width: auto;
+    height: 3px;
+    background-color: black;
+  }
+  .special-line{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: brown;
+    transform: scale(1,1);
+    transition: 1s;
+    margin-top: 10px;
+  }
+  .efict-line:hover .special-line{
+    transform: scale(1.3 ,1.3);
+  }  
